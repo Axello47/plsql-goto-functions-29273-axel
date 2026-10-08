@@ -31,19 +31,19 @@ I run `SET SERVEROUTPUT ON` first so the output shows.
 
 **A1:** You type a number and it uses GOTO to say if it is positive, negative or zero, then even or odd.
 
-![A1](screenshots/A1_output.png)
+![A1](screenshots/A1_output.jpeg)
 
 **A2:** You type an employee ID and it jumps to a low, mid or high salary section for the raise. No salary jumps to a message instead.
 
-![A2](screenshots/A2_output.png)
+![A2](screenshots/A2_output.jpeg)
 
 **A3:** I jumped into the middle of an IF block and Oracle gave `PLS-00375: illegal GOTO`. I fixed it by putting the label outside the IF.
 
-![A3](screenshots/A3_error_and_fix.png)
+![A3](screenshots/A3_error_and_fix.jpeg)
 
 **A4:** A1 and A2 again but with IF / ELSIF and no GOTO.
 
-![A4](screenshots/A4_output.png)
+![A4](screenshots/A4_output.jpeg)
 
 ## Part B: Functions
 
@@ -54,16 +54,16 @@ I run `SET SERVEROUTPUT ON` first so the output shows.
 
 **B5:** all of them used inside one SELECT.
 
-![B5](screenshots/B5_select_output.png)
+![B5](screenshots/B5_select_output.jpeg)
 
 ## Part C
 
 **C1:** `fn_validate_payroll` checks an employee and says VALID or what is wrong. It handles employee not found with an exception.
 
-![C1](screenshots/C1_output.png)
+![C1](screenshots/C1_output.jpeg)
 
 **C2:** see [docs/REFLECTION.md](docs/REFLECTION.md)
 
 ## Notes (AI use)
 
-I used Claude (AI) to generate the test data in `00_setup/create_tables.sql` and to help write and debug the SQL files.
+I used Claude (AI) to generate the test data in `00_setup/create_tables.sql` and to help write and debug the SQL files. I went through everything and I can explain it.
