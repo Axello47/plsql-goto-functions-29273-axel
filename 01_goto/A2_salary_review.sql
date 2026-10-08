@@ -1,5 +1,3 @@
--- A2: salary review for one employee, branching with GOTO
--- Raise rule: below 300,000 -> 10%, below 700,000 -> 5%, otherwise 2%
 SET SERVEROUTPUT ON
 SET VERIFY OFF
 

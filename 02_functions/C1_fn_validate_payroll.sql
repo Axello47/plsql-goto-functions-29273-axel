@@ -1,5 +1,3 @@
--- C1: checks one employee's payroll data and returns a text verdict.
--- Needs B1, B3 and B4 to exist first.
 CREATE OR REPLACE FUNCTION fn_validate_payroll (
   p_emp_id IN NUMBER
 ) RETURN VARCHAR2 IS

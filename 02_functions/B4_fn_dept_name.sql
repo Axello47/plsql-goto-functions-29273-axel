@@ -1,4 +1,3 @@
--- B4: department id in, department name out
 CREATE OR REPLACE FUNCTION fn_dept_name (
   p_dept_id IN NUMBER
 ) RETURN VARCHAR2 IS

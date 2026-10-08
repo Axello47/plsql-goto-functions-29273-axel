@@ -1,4 +1,3 @@
--- Tests C1 against every employee, plus one ID that does not exist
 SET SERVEROUTPUT ON
 SET LINESIZE 160
 

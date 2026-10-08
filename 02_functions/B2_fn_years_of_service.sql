@@ -1,4 +1,3 @@
--- B2: hire date in, years of service out (1 decimal)
 CREATE OR REPLACE FUNCTION fn_years_of_service (
   p_hire_date IN DATE
 ) RETURN NUMBER IS

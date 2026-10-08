@@ -1,4 +1,3 @@
--- A1: classify a whole number using GOTO and labels
 SET SERVEROUTPUT ON
 SET VERIFY OFF
 

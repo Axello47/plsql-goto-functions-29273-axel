@@ -1,4 +1,3 @@
--- A4: A1 and A2 rewritten WITHOUT GOTO (plain IF / ELSIF)
 SET SERVEROUTPUT ON
 SET VERIFY OFF
 

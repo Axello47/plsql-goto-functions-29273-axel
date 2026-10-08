@@ -1,8 +1,3 @@
--- B3: monthly tax with progressive brackets (RWF)
---   0       - 60,000   : 0%
---   60,001  - 100,000  : 20% of the part above 60,000
---   above 100,000      : 8,000 + 30% of the part above 100,000
--- (Change the numbers if your instructor gave different brackets.)
 CREATE OR REPLACE FUNCTION fn_calculate_tax (
   p_monthly_salary IN NUMBER
 ) RETURN NUMBER IS
