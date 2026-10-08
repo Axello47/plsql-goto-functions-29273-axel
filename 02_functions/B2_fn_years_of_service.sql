@@ -1,0 +1,12 @@
+-- B2: hire date in, years of service out (1 decimal)
+CREATE OR REPLACE FUNCTION fn_years_of_service (
+  p_hire_date IN DATE
+) RETURN NUMBER IS
+BEGIN
+  IF p_hire_date IS NULL THEN
+    RETURN NULL;
+  END IF;
+  RETURN ROUND(MONTHS_BETWEEN(SYSDATE, p_hire_date) / 12, 1);
+END fn_years_of_service;
+/
+SHOW ERRORS
