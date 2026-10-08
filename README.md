@@ -66,4 +66,4 @@ I run `SET SERVEROUTPUT ON` first so the output shows.
 
 ## Notes (AI use)
 
-I used Claude (AI) to generate the test data in `00_setup/create_tables.sql` and to help write and debug the SQL files. I went through everything and I can explain it.
+I used Claude (AI) to generate the test data in `00_setup/create_tables.sql` and to help write and debug the SQL files.
